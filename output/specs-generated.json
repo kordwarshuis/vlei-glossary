@@ -10,7 +10,6 @@
       "markdown_paths": [
         "spec-head.md",
         "terms-and-definitions-intro.md",
-        "terms-definitions/.DS_Store",
         "terms-definitions/DAR.md",
         "terms-definitions/ECR.md",
         "terms-definitions/GAR.md",
