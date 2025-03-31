@@ -10,7 +10,6 @@
       "markdown_paths": [
         "spec-head.md",
         "terms-and-definitions-intro.md",
-        "terms-definitions/.DS_Store",
         "terms-definitions/DAR.md",
         "terms-definitions/ECR.md",
         "terms-definitions/GAR.md",
@@ -18,6 +17,10 @@
         "terms-definitions/OOR.md",
         "terms-definitions/QAR.md",
         "terms-definitions/QVI.md",
+        "terms-definitions/active-status.md",
+        "terms-definitions/annual-vlei-issuer-qualification.md",
+        "terms-definitions/audit-report.md",
+        "terms-definitions/candidate-vlei-issuer.md",
         "terms-definitions/designated-authorized-representative.md",
         "terms-definitions/engagement-context-role.md",
         "terms-definitions/gleif-authorized-representative.md",
@@ -46,15 +49,21 @@
       },
       "external_specs": [
         {
-          "external_spec": "test-1",
-          "gh_page": "https://blockchainbird.github.io/spec-up-xref-test-1/",
-          "url": "https://github.com/blockchainbird/spec-up-xref-test-1",
+          "external_spec": "toip1",
+          "gh_page": "https://trustoverip.github.io/ctwg-main-glossary/",
+          "url": "https://github.com/trustoverip/ctwg-main-glossary",
+          "terms_dir": "spec/terms-definitions"
+        },
+        {
+          "external_spec": "keri1",
+          "gh_page": "https://weboftrust.github.io/kerisuite-glossary/",
+          "url": "https://github.com/weboftrust/kerisuite-glossary",
           "terms_dir": "spec/term-definitions"
         },
         {
-          "external_spec": "test-2",
-          "gh_page": "https://blockchainbird.github.io/spec-up-xref-test-2/",
-          "url": "https://github.com/blockchainbird/spec-up-xref-test-2",
+          "external_spec": "toip2",
+          "gh_page": "https://trustoverip.github.io/ctwg-general-glossary/",
+          "url": "https://trustoverip.github.io/ctwg-general-glossary",
           "terms_dir": "spec/term-definitions"
         }
       ],

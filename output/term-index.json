@@ -1,5 +1,4 @@
 [
-  "terms-definitions/.DS_Store",
   "terms-definitions/DAR.md",
   "terms-definitions/ECR.md",
   "terms-definitions/GAR.md",
@@ -7,6 +6,10 @@
   "terms-definitions/OOR.md",
   "terms-definitions/QAR.md",
   "terms-definitions/QVI.md",
+  "terms-definitions/active-status.md",
+  "terms-definitions/annual-vlei-issuer-qualification.md",
+  "terms-definitions/audit-report.md",
+  "terms-definitions/candidate-vlei-issuer.md",
   "terms-definitions/designated-authorized-representative.md",
   "terms-definitions/engagement-context-role.md",
   "terms-definitions/gleif-authorized-representative.md",
