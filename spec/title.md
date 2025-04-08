@@ -5,13 +5,13 @@ KERI Main Glossary
 
 **Latest Draft:**
 
-* [Github Repository](https://github.com/weboftrust/kerisuite-glossary)
-* [Submit/View Issues](https://github.com/weboftrust/kerisuite-glossary/issues)
-* [Discussions](https://github.com/weboftrust/kerisuite-glossary/discussions)
+* [Github Repository](https://github.com/henkvancann/vlei-glossary)
+* [Submit/View Issues](https://github.com/henkvancann/vlei-glossary/issues)
+* [Discussions](https://github.com/henkvancann/vlei-glossary/discussions)
 
 **Editors:**
 
-- [Drummond Reed](https://github.com/talltree), [Gen](https://www.gendigital.com)
+- Karla McKenna, [GLEIF](https://www.gleif.org)
 - [Henk van Cann](https://github.com/henkvancann)
 
 **Contributors:**
@@ -20,7 +20,7 @@ KERI Main Glossary
 
 **Participate:**
 
-- [GitHub repo](https://github.com/weboftrust/kerisuite-glossary)
-- [Commit history](https://github.com/weboftrust/kerisuite-glossary/commits/main)
+- [GitHub repo](https://github.com/henkvancann/vlei-glossary)
+- [Commit history](https://github.com/henkvancann/vlei-glossary/commits/main)
 
 ------------------------------------

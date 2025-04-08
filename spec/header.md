@@ -1,11 +1,11 @@
 ## Status
 
-This is the first public review draft of the KERI Main Glossary. It is also the first version published using the [Spec-Up-T specification editing utility](https://github.com/trustoverip/spec-up-t)
+This is the first public review draft of the integrated online vLEI Main Glossary. It is also the first version published using the [Spec-Up-T specification editing utility](https://github.com/trustoverip/spec-up-t)
 based on [Spec-Up specification editing utility](https://identity.foundation/spec-up/) developed by the [Decentralized Identity Foundation](http://identity.foundation/).
 
 ## Copyright Notice
 
-| TBW Sam, please check to what extend you want to copy ToIP's terms |
+| TBW Karla, please check to what extend you want to copy ToIP's terms |
 
 This specification is subject to the **OWF Contributor License Agreement 1.0 - Copyright**
 available at
