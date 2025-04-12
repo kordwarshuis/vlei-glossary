@@ -1,6 +1,5 @@
-[[def: legal-entity-official-organizational-role-vlei-credential-governance-framework, legal entity official organizational role vlei credential governance framework]]
+[[def: Legal Entity Official Organizational Role vLEI Credential Governance Framework, legal-entity-official-organizational-role-vlei-credential-governance-framework]]
 
-~ A document that details the requirements for [[ref: vlei-role-credential]] **issued to** official representatives of a Legal Entity.  
-~ [Source](https://www.gleif.org/vlei/introducing-the-vlei-ecosystem-governance-framework/2022-02-07_verifiable-lei-vlei-ecosystem-governance-framework-glossary-draft-publication_v0.9-draft.pdf): Draft vLEI Ecosystem Governance Framework Glossary.
+~ A document that details the requirements for [[ref: vlei-role-credential]] issued to official representatives of a Legal Entity.
 
-~ More in <a href="https://weboftrust.github.io/WOT-terms/docs/glossary/legal-entity-official-organizational-role-vlei-credential-governance-framework">extended KERI glossary</a>
+~ [Source](https://www.gleif.org/vlei/introducing-the-vlei-ecosystem-governance-framework/2023-12-15_vlei-egf-v2.0-glossary_v1.3_final.pdf) verifiable LEI (vLEI) Ecosystem Governance Framework Glossary.
