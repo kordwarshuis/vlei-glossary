@@ -18,7 +18,9 @@ A specification document written using the [Trustoverip](https://trustoverip.org
 
 The tool may create special external references to terms in this glossary using the Spec-Up `xref` and the `tref` tags following this syntax:
 
-  `[[xref: glossary, xxxxx]]` and   `[[tref: glossary, xxxxx]]`
+  `[ [xref: glossary, xxxxx] ]` and   `[ [tref: glossary, xxxxx] ]`
+  
+Note: we've put spaces between brackets to be able to present this literally; remove the spaces in use. 
 
   Where `glossary` is the text label the document author assigns to the URL of a Web-accessible glossary, and `xxxxx` is the term as it appears in that glossary, with any spaces are replaced by en-dashes (hyphens). For example, a Spec-Up external reference to the term `self-certifying identifer` using the label `toip` for this glossary would look like this:
 
