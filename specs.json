@@ -1,7 +1,7 @@
 {
     "specs": [
         {
-            "title": "Spec-Up-T Starterpack",
+            "title": "vLEI Glossary",
             "description": "Create technical specifications in markdown. Based on the original Spec-Up, extended with Terminology tooling",
             "author": "Trust over IP Foundation",
             "spec_directory": "./spec",
@@ -19,8 +19,9 @@
             "favicon": "https://raw.githubusercontent.com/trustoverip/spec-up-t/refs/heads/master/src/install-from-boilerplate/boilerplate/static/favicon.ico",
             "source": {
                 "host": "github",
-                "account": "trustoverip",
-                "repo": "spec-up-t-starter-pack"
+                "account": "henkvancann",
+                "repo": "vlei-glossary",
+                "branch": "main"
             },
             "external_specs": [
                 {
