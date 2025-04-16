@@ -1,0 +1,5 @@
+[[def: Signature Verification Infrastructure, signature-verification-infrastructure]]
+
+~ An attack against signature verification infrastructure typically requires replacing the signature verification code with malicious code that falsely reports signature verification on signed statements. KERI provides a specific protection mechanism for signature verification via a Watcher pool where an event is only accepted as verified if a sufficient majority of the Watchers in a pool agree on the verification status of the signature(s) on that event. This provides a threshold structure where an attacker must compromise the code integrity of a sufficient number of Watchers for successful attack. Because the composition of a Watcher pool does not need to be publicly disclosed, an attacker must also discover that composition to ensure a successful attack.
+
+~ [Source](https://www.gleif.org/vlei/introducing-the-vlei-ecosystem-governance-framework/2023-12-15_vlei-egf-v2.0-glossary_v1.3_final.pdf) vLEI Ecosystem Governance Framework Glossary

@@ -1,0 +1,5 @@
+[[def: Non-Transferable AIDs, Non-Transferable AID, non-transferable-aids, non-transferable-aid]]
+
+~ Non-transferable AIDs are self-certifying but are not meant for long term persistent use and hence their key-pair(s) are not rotatable. Instead, the identifier is abandoned and replaced with a new identifier with a new set of key-pair(s). These may also be called ephemeral AIDs. Within KERI, the primary use for non-transferable (ephemeral) AIDs are for the Witness identifiers. Because Witnesses are used in a pool, the pool forms a threshold structure which provides protection from the exploit of a minority of the key-pairs of the ephemeral Witness AIDs in the pool. If a given Witness AID has its key(s) compromised, then the Witness AID itself is abandoned and replaced. Thus, the Witness pool management policy protects Witness ephemeral AIDs.
+
+~ [Source](https://www.gleif.org/vlei/introducing-the-vlei-ecosystem-governance-framework/2023-12-15_vlei-egf-v2.0-glossary_v1.3_final.pdf) vLEI Ecosystem Governance Framework Glossary
