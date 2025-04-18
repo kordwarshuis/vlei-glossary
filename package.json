@@ -5,7 +5,7 @@
   "description": "Quick setup for a specification with the Spec-Up-T tool.",
   "dependencies": {
     "dotenv": "^16.4.5",
-    "spec-up-t": "^1.1.0",
+    "spec-up-t": "github:blockchainbird/spec-up-t#fix/xtref",
     "wottermstospecupt": "^1.0.19"
   },
   "scripts": {
