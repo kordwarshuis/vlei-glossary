@@ -2,8 +2,8 @@
     "specs": [
         {
             "title": "vLEI Glossary",
-            "description": "Create technical specifications in markdown. Based on the original Spec-Up, extended with Terminology tooling",
-            "author": "Trust over IP Foundation",
+            "description": "Create vLEI glossary maintained in markdown. Based on Spec-Up-T",
+            "author": "GLEIF.org",
             "spec_directory": "./spec",
             "spec_terms_directory": "terms-definitions",
             "output_path": "./docs",
