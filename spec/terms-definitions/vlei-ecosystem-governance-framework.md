@@ -1,5 +1,6 @@
 [[def: vlei-ecosystem-governance-framework, vlei ecosystem governance framework]]
 
-~ The Verifiable LEI (vLEI) Ecosystem [[ref: governance-framework]] Information Trust Policies. It's a **document** that defines the information security, privacy, availability, confidentiality and processing integrity policies that apply to all vLEI Ecosystem Members.  
-~ Paraphrased by @henkvancann from [source](https://www.gleif.org/vlei/introducing-the-vlei-ecosystem-governance-framework/2022-02-07_verifiable-lei-vlei-ecosystem-governance-framework-glossary-draft-publication_v0.9-draft.pdf) Draft vLEI Ecosystem Governance Framework Glossary.
+~ The vLEI Ecosystem Governance Framework, which has been designed from the ground up to complement GLEIF’s existing LEI governance, defines the vLEI operational model and describes how the new digital trust ecosystem’s range of vLEI issuing stakeholders will qualify for and perform their roles in the Global LEI System.’  
+The framework is made up of 24 documents.
+
 ~ More in <a href="https://weboftrust.github.io/WOT-terms/docs/glossary/vlei-ecosystem-governance-framework">extended KERI glossary</a>

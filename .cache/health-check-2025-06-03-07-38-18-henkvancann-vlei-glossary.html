@@ -1,0 +1,659 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Spec-Up-T Health Check Report</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+      <style>
+        body {
+          padding-top: 2rem;
+          padding-bottom: 2rem;
+        }
+        .report-header {
+          margin-bottom: 2rem;
+        }
+        .timestamp {
+          color: #6c757d;
+        }
+        .filter-toggle {
+          margin-bottom: 1rem;
+        }
+        .hidden-item {
+          display: none;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="container">
+        <div class="report-header">
+          <h1>Spec-Up-T Health Check Report</h1>
+          <p class="timestamp">Generated: 6/3/2025, 9:38:18 AM</p>
+          <p class="repo-info">
+            Repository: <a href="https://github.com/henkvancann/vlei-glossary" target="_blank">https://github.com/henkvancann/vlei-glossary</a><br>
+            Username: henkvancann<br>
+            Repo name: vlei-glossary
+          </p>
+        </div>
+        
+        <div class="filter-toggle form-check form-switch">
+          <input class="form-check-input" type="checkbox" id="togglePassingChecks" checked>
+          <label class="form-check-label" for="togglePassingChecks">Show / hide passing checks</label>
+        </div>
+        
+        <div class="results">
+          
+      <div class="card mb-4 results-card" data-section="check-trefs-in-all-external-specs">
+        <div class="card-header">
+          <h5>Check Trefs in all external specs</h5>
+        </div>
+        <div class="card-body">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Status</th>
+                <th>Check</th>
+                <th>Details</th>
+              </tr>
+            </thead>
+            <tbody>
+    
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Find specs.json file</td>
+          <td>specs.json file found</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Find external specs</td>
+          <td>Found 3 external specs</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Find spec terms directories</td>
+          <td>Found 1 spec terms directories</td>
+        </tr>
+      
+        <tr data-status="fail" class="check-row">
+          <td class="text-danger" style="white-space: nowrap;">
+            <i class="bi bi-x-circle-fill"></i> <span style="vertical-align: middle;">Fail</span>
+          </td>
+          <td>Find cache for repo "keri1" referenced in autonomic-identifier.md</td>
+          <td>No cache file found for repo "keri1". Unable to verify if term "autonomic-identifier" exists.</td>
+        </tr>
+      
+        <tr data-status="fail" class="check-row">
+          <td class="text-danger" style="white-space: nowrap;">
+            <i class="bi bi-x-circle-fill"></i> <span style="vertical-align: middle;">Fail</span>
+          </td>
+          <td>Find cache for repo "toip2" referenced in non-disclosure-agreement.md</td>
+          <td>No cache file found for repo "toip2". Unable to verify if term "Non-Disclosure Agreement" exists.</td>
+        </tr>
+      
+        <tr data-status="fail" class="check-row">
+          <td class="text-danger" style="white-space: nowrap;">
+            <i class="bi bi-x-circle-fill"></i> <span style="vertical-align: middle;">Fail</span>
+          </td>
+          <td>Find cache for repo "toip2" referenced in pdf.md</td>
+          <td>No cache file found for repo "toip2". Unable to verify if term "pdf, pdf-document" exists.</td>
+        </tr>
+      
+        <tr data-status="fail" class="check-row">
+          <td class="text-danger" style="white-space: nowrap;">
+            <i class="bi bi-x-circle-fill"></i> <span style="vertical-align: middle;">Fail</span>
+          </td>
+          <td>Find cache for repo "toip2" referenced in root-of-trust.md</td>
+          <td>No cache file found for repo "toip2". Unable to verify if term "Root of Trust" exists.</td>
+        </tr>
+      
+        <tr data-status="fail" class="check-row">
+          <td class="text-danger" style="white-space: nowrap;">
+            <i class="bi bi-x-circle-fill"></i> <span style="vertical-align: middle;">Fail</span>
+          </td>
+          <td>Find cache for repo "toip2" referenced in seal.md</td>
+          <td>No cache file found for repo "toip2". Unable to verify if term "seal" exists.</td>
+        </tr>
+      
+        <tr data-status="fail" class="check-row">
+          <td class="text-danger" style="white-space: nowrap;">
+            <i class="bi bi-x-circle-fill"></i> <span style="vertical-align: middle;">Fail</span>
+          </td>
+          <td>Find cache for repo "toip2" referenced in service-level-agreement.md</td>
+          <td>No cache file found for repo "toip2". Unable to verify if term "Service Level Agreement" exists.</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Term reference validation summary</td>
+          <td>Processed 99 files, found 6 with tref tags. 0 terms found correctly, 0 terms found in alternative repos (warnings), 0 terms missing.</td>
+        </tr>
+      
+            </tbody>
+          </table>
+        </div>
+      </div>
+    
+      <div class="card mb-4 results-card" data-section="check-external-specs-url">
+        <div class="card-header">
+          <h5>Check External Specs URL</h5>
+        </div>
+        <div class="card-body">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Status</th>
+                <th>Check</th>
+                <th>Details</th>
+              </tr>
+            </thead>
+            <tbody>
+    
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Find specs.json file</td>
+          <td>specs.json file found</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Find external_specs in specs.json</td>
+          <td>external_specs key found in specs.json</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Check "toip1" gh_page URL structure</td>
+          <td>Valid GitHub Pages URL structure</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Check "toip1" gh_page URL exists</td>
+          <td>GitHub Pages URL is accessible</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Check "toip1" repo URL structure</td>
+          <td>Valid GitHub repository URL structure</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Check "toip1" repo URL exists</td>
+          <td>GitHub repository URL is accessible</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Check "keri1" gh_page URL structure</td>
+          <td>Valid GitHub Pages URL structure</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Check "keri1" gh_page URL exists</td>
+          <td>GitHub Pages URL is accessible</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Check "keri1" repo URL structure</td>
+          <td>Valid GitHub repository URL structure</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Check "keri1" repo URL exists</td>
+          <td>GitHub repository URL is accessible</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Check "toip2" gh_page URL structure</td>
+          <td>Valid GitHub Pages URL structure</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Check "toip2" gh_page URL exists</td>
+          <td>GitHub Pages URL is accessible</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Check "toip2" repo URL structure</td>
+          <td>Valid GitHub repository URL structure</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Check "toip2" repo URL exists</td>
+          <td>GitHub repository URL is accessible</td>
+        </tr>
+      
+            </tbody>
+          </table>
+        </div>
+      </div>
+    
+      <div class="card mb-4 results-card" data-section="check-term-references">
+        <div class="card-header">
+          <h5>Check Term References</h5>
+        </div>
+        <div class="card-body">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Status</th>
+                <th>Check</th>
+                <th>Details</th>
+              </tr>
+            </thead>
+            <tbody>
+    
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Find spec terms directories</td>
+          <td>Found 1 spec terms directories</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Find markdown files in <code>/Users/henkvancann/repos/vlei-glossary/spec/terms-definitions</code></td>
+          <td>Found 99 markdown files</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Check tref spec "keri1" in <code>autonomic-identifier.md</code></td>
+          <td>Valid external spec reference: keri1</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Check tref spec "toip2" in <code>non-disclosure-agreement.md</code></td>
+          <td>Valid external spec reference: toip2</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Check tref spec "toip2" in <code>pdf.md</code></td>
+          <td>Valid external spec reference: toip2</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Check tref spec "toip2" in <code>root-of-trust.md</code></td>
+          <td>Valid external spec reference: toip2</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Check tref spec "toip2" in <code>seal.md</code></td>
+          <td>Valid external spec reference: toip2</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Check tref spec "toip2" in <code>service-level-agreement.md</code></td>
+          <td>Valid external spec reference: toip2</td>
+        </tr>
+      
+            </tbody>
+          </table>
+        </div>
+      </div>
+    
+      <div class="card mb-4 results-card" data-section="check--code-specs-json--code--configuration">
+        <div class="card-header">
+          <h5>Check <code>specs.json</code> configuration</h5>
+        </div>
+        <div class="card-body">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Status</th>
+                <th>Check</th>
+                <th>Details</th>
+              </tr>
+            </thead>
+            <tbody>
+    
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>specs.json exists</td>
+          <td>Project specs.json file found</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Specification title configuration</td>
+          <td>Specification title has been changed from default</td>
+        </tr>
+      
+        <tr data-status="fail" class="check-row">
+          <td class="text-danger" style="white-space: nowrap;">
+            <i class="bi bi-x-circle-fill"></i> <span style="vertical-align: middle;">Fail</span>
+          </td>
+          <td>Specification description configuration</td>
+          <td>Specification description is still set to default value</td>
+        </tr>
+      
+        <tr data-status="fail" class="check-row">
+          <td class="text-danger" style="white-space: nowrap;">
+            <i class="bi bi-x-circle-fill"></i> <span style="vertical-align: middle;">Fail</span>
+          </td>
+          <td>Specification author configuration</td>
+          <td>Specification author is still set to default value: "Trust over IP Foundation"</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Directory containing specification content configuration</td>
+          <td>Default value for Directory containing specification content is acceptable</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Directory containing term definitions configuration</td>
+          <td>Default value for Directory containing term definitions is acceptable</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Output directory for generated files configuration</td>
+          <td>Default value for Output directory for generated files is acceptable</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>List of markdown files to include in the specification configuration</td>
+          <td>List of markdown files to include in the specification has been changed from default</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Source repository information configuration</td>
+          <td>Source repository information has been changed from default</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Logo URL configuration</td>
+          <td>Default value for Logo URL is acceptable</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Link to the logo configuration</td>
+          <td>Default value for Link to the logo is acceptable</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Favicon URL configuration</td>
+          <td>Default value for Favicon URL is acceptable</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>External specifications configuration</td>
+          <td>External specifications has been changed from default</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>KaTeX math rendering configuration configuration</td>
+          <td>Default value for KaTeX math rendering configuration is acceptable</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Required fields check</td>
+          <td>All required fields are present</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Overall configuration status</td>
+          <td>85% of specs.json has been configured (11/13 items)</td>
+        </tr>
+      
+            </tbody>
+          </table>
+        </div>
+      </div>
+    
+      <div class="card mb-4 results-card" data-section="check--code-terms-and-definitions-intro-md--code-">
+        <div class="card-header">
+          <h5>Check <code>terms-and-definitions-intro.md</code></h5>
+        </div>
+        <div class="card-body">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Status</th>
+                <th>Check</th>
+                <th>Details</th>
+              </tr>
+            </thead>
+            <tbody>
+    
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Find specs.json file</td>
+          <td>specs.json file found</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Find spec_directory field</td>
+          <td>spec_directory field found: "./spec"</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Find terms-and-definitions-intro.md file</td>
+          <td>terms-and-definitions-intro.md file found in spec directory</td>
+        </tr>
+      
+            </tbody>
+          </table>
+        </div>
+      </div>
+    
+      <div class="card mb-4 results-card" data-section="check--code--gitignore--code-">
+        <div class="card-header">
+          <h5>Check <code>.gitignore</code></h5>
+        </div>
+        <div class="card-body">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Status</th>
+                <th>Check</th>
+                <th>Details</th>
+              </tr>
+            </thead>
+            <tbody>
+    
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Find specs.json file</td>
+          <td>specs.json file found</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Find output_path field</td>
+          <td>output_path field found: "./docs"</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Output directory existence</td>
+          <td>Output directory "./docs" exists</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Find .gitignore file</td>
+          <td>.gitignore file found</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Check if output directory is gitignored</td>
+          <td>Output directory "./docs" is not being ignored by Git, which is good.</td>
+        </tr>
+      
+        <tr data-status="pass" class="check-row">
+          <td class="text-success" style="white-space: nowrap;">
+            <i class="bi bi-check-circle-fill"></i> <span style="vertical-align: middle;">Pass</span>
+          </td>
+          <td>Check if index.html files are gitignored</td>
+          <td>index.html files in the output directory are properly tracked by Git.</td>
+        </tr>
+      
+            </tbody>
+          </table>
+        </div>
+      </div>
+    
+        </div>
+      </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+      <script>
+        // Toggle function for passing checks
+        document.getElementById('togglePassingChecks').addEventListener('change', function() {
+          const showPassing = this.checked;
+          const passingRows = document.querySelectorAll('tr[data-status="pass"]');
+          
+          // Hide/show passing rows
+          passingRows.forEach(row => {
+            if (showPassing) {
+              row.classList.remove('hidden-item');
+            } else {
+              row.classList.add('hidden-item');
+            }
+          });
+          
+          // Check each results card to see if it should be hidden
+          document.querySelectorAll('.results-card').forEach(card => {
+            const visibleRows = card.querySelectorAll('tr.check-row:not(.hidden-item)');
+            
+            if (visibleRows.length === 0) {
+              // If no visible rows, hide the entire card
+              card.classList.add('hidden-item');
+            } else {
+              // Otherwise show it
+              card.classList.remove('hidden-item');
+            }
+          });
+        });
+      </script>
+    </body>
+    </html>
+  
